@@ -1,0 +1,9 @@
+[package]
+name = "RSOS"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+log = "0.4"
+[profile.release]
+debug = true
